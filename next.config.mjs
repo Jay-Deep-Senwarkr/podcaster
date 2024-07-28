@@ -2,7 +2,7 @@
 const nextConfig = {
     typescript: {
         ignoreBuildErrors: true
-    }
+    },
     images:{
         remotePatterns:[
             {
@@ -16,9 +16,9 @@ const nextConfig = {
             {
                 protocol: 'https',
                 hostname: 'img.clerk.com'
-            }
-        ]
-    }
+            },
+        ],
+    },
 };
 
 export default nextConfig;
